@@ -1,0 +1,29 @@
+@extends('dashboard')
+@section('content')
+<div class="content-header">
+      <div class="container-fluid">
+        <div class="row mb-2">
+          <div class="col-sm-6">
+            <h1 class="m-0 text-dark">Dashboard</h1>
+          </div>
+          <div class="col-sm-6">
+            <ol class="breadcrumb float-sm-right">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active">Dashboard</li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="content">
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark justify-content-center">
+                     <span class="navbar-text">
+                     Welcome to Vetromedia Dashboard.
+                     This is a simple blog created using PHP & laravel
+                     </span>
+                  </nav>
+                  <br>
+      </section>
+      </div>
+    @endsection
+
